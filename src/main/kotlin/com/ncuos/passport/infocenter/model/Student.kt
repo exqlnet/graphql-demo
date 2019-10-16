@@ -17,4 +17,8 @@ class Student : BaseModel() {
 
     lateinit var qsh: String
 
+    override fun toString(): String {
+        return "$xm, $xb"
+    }
+
 }

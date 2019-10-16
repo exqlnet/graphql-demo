@@ -1,8 +1,17 @@
-schema {
-    query: Query
-}
+
 
 type Query {
     name: String
+    student(id: Int): Student
+    allStudents: [Student]
+}
 
+
+type Student {
+    xm: String
+    id: Int
+    yddh: String
+    qsh: String
+    ksh: String
+    sfzh: String
 }
